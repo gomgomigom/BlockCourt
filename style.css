@@ -97,8 +97,9 @@ a {
   align-items: center;
 }
 
-.introduce h2 {
-  font-size: 50px;
+.introduce h2 img{
+  height: 100px;
+  margin-bottom: -10px;
 }
 
 .introduce h3 {
@@ -193,8 +194,8 @@ a {
   .main {
     flex-direction: column;
   }
-  .introduce h2 {
-    font-size: 30px;
+  .introduce h2 img {
+    height: 80px;
   }
   .introduce h3 {
     font-size: 16px;
