@@ -26,7 +26,7 @@ a {
   top: 0px;
   left: 0px;
   margin: 0 auto 150px;
-  background-color: white;
+  background-color: #FAD744;
 }
 
 .head-logo a {
@@ -61,11 +61,12 @@ a {
 }
 
 .head-menu li a {
+  font-size: 22px;
   padding: 10px 12px;
 }
 
 .head-menu li a:hover {
-  color: #FAD744 ;
+  color: #2B3252 ;
   font-weight: 800;
 }
 
@@ -170,7 +171,7 @@ a {
 
 .footer {
   padding: 10px 20px;
-  color:#FAD744;
+  color: white;
   background-color: #2B3252;
   padding-bottom: 10vh;
 }
