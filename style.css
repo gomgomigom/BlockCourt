@@ -4,26 +4,29 @@
 }
 body {
   color: #2B3252;
+  font-family: 'Baloo 2', cursive;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: #2B3252;
   padding: 0;
   margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 .head-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #2B3252 ;
+  border-bottom: 5px solid #2B3252 ;
   padding: 5px 12px;
   position: sticky;
   top: 0px;
   left: 0px;
   margin: 0 auto 150px;
-  background-color: rgb(240, 240, 240);
+  background-color: white;
 }
 
 .head-logo a {
@@ -66,7 +69,7 @@ a {
   font-weight: 800;
 }
 
-.welcome {
+.main {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,12 +77,12 @@ a {
   width: 90%;
 }
 
-.welcome-img {
+.main-img {
   display:flex;
   justify-content: center;
 }
 
-.welcome-img img {
+.main-img img {
   width: 40%;
   height: auto;
 }
@@ -94,7 +97,10 @@ a {
 
 .introduce h2 {
   font-size: 50px;
-  margin-bottom: 20px;
+}
+
+.introduce h3 {
+  margin-bottom: 50px;
 }
 
 .introduce p {
@@ -125,8 +131,15 @@ a {
   text-align: center;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 100%;
+  padding: 5%;
   margin: auto;
+  color:#FAD744;
+  background-color: #2B3252;
+}
+
+.anonymity p {
+  color: white;
 }
 
 .anonymity {
@@ -135,10 +148,18 @@ a {
   height: 50vh;
 }
 
+.secret p {
+  color: white;
+}
+
 .secret {
   text-align: center;
   width: 30%;
   height: 50vh;
+}
+
+.legal-counsel p {
+  color: white;
 }
 
 .legal-counsel {
@@ -148,9 +169,10 @@ a {
 }
 
 .footer {
-  border-top: #2B3252 solid 1px;
   padding: 10px 20px;
-  margin-bottom: 10vh;
+  color:#FAD744;
+  background-color: #2B3252;
+  padding-bottom: 10vh;
 }
 
 .footer p::before {
@@ -166,9 +188,15 @@ a {
   .head-logo h1 {
     display: flex;
   }
+  .main {
+    flex-direction: column;
+  }
   .introduce h2 {
     font-size: 30px;
-    margin-bottom: 10px;
+  }
+  .introduce h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
   }
   .introduce p {
     font-size: 15px;
@@ -178,15 +206,16 @@ a {
     margin-left: 0;
     width: 70%;
   }
-  .welcome-img {
-    width: 30%;
+  .main-img {
+    margin-top: 100px;
+    width: 40%;
   }
-  .welcome-img img {
-    width: 80%;
+  .main-img img {
+    width: 100%;
   }
   .introduce button {
-    padding: 4px 6px;
-    font-size: 13px;
+    padding: 5px 10px;
+    font-size: 14px;
     border-radius: 4px;
   }
   .article-container {
@@ -195,19 +224,18 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
+    padding: 10% 5%;
     margin: auto;
   }
   .anonymity {
     width: 80%;
     height: 40vh;
   }
-  
   .secret {
     width: 80%;
     height: 40vh;
   }
-  
   .legal-counsel {
     height: 40vh;
     width: 80%;
