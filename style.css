@@ -20,13 +20,13 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 5px solid #2B3252 ;
+  border-bottom: 2px solid #2B3252 ;
   padding: 5px 12px;
   position: sticky;
   top: 0px;
   left: 0px;
   margin: 0 auto 150px;
-  background-color: #FAD744;
+  background-color: #2B3252;
 }
 
 .head-logo a {
@@ -45,7 +45,7 @@ a {
   }
 
   to {
-    background-color: #FAD744 ;
+    background-color: #2B3252 ;
   }
   }
 
@@ -62,11 +62,12 @@ a {
 
 .head-menu li a {
   font-size: 22px;
+  color: #FAD744;
   padding: 10px 12px;
 }
 
 .head-menu li a:hover {
-  color: #2B3252 ;
+  color: #FAD744 ;
   font-weight: 800;
 }
 
