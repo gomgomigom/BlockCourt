@@ -1,3 +1,5 @@
+@import url("./fonts.css");
+
 :root {
   --logo-color-new: #072c50;
   --logo-color-gold: #b88746;
@@ -13,8 +15,7 @@
 }
 body {
   color: var(--logo-color-new);
-  font-family: "Baloo 2", cursive;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR", "baloo 2", sans-serif, cursive;
 }
 
 a {
@@ -88,10 +89,6 @@ a {
   width: 90%;
 }
 
-.main h2,
-.main h3 {
-  font-family: "Baloo 2", cursive;
-}
 .main-img {
   display: flex;
   justify-content: center;
@@ -137,6 +134,7 @@ a {
   background-color: var(--logo-color-new);
   cursor: pointer;
   transition: box-shadow 750ms ease-in;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .introduce button:hover {
