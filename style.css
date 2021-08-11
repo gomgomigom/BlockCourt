@@ -15,7 +15,7 @@
 }
 body {
   color: var(--logo-color-new);
-  font-family: "Noto Sans KR", "baloo 2", sans-serif, cursive;
+  font-family: "baloo 2", "Noto Sans KR", sans-serif, cursive;
 }
 
 a {
