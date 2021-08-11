@@ -8,11 +8,13 @@
   font-family: "baloo 2";
   font-style: normal;
   font-weight: 400;
-  src: url(./assets/fonts/Baloo2-Regular.eot);
-  src: url(./assets/fonts/baloo2-regular.eot?#iefix) format("embedded-opentype"),
-    url(./assets/fonts/baloo2-regular.otf) format("otf"),
-    url(./assets/fonts/baloo2-regular.svg) format("svg"),
-    url(./assets/fonts/baloo2-regular.ttf) format("truetype");
+  src: url("./assets/fonts/Baloo2-Regular.eot");
+  src: url("./assets/fonts/baloo2-regular.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/baloo2-regular.otf") format("otf"),
+    url("./assets/fonts/baloo2-regular.svg") format("svg"),
+    url("./assets/fonts/baloo2-regular.ttf") format("truetype"),
+    url("./assets/fonts/baloo2-regular.woff") format("woff"),
+    url("./assets/fonts/baloo2-regular.woff2") format("woff2");
   unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 }
 
@@ -20,11 +22,13 @@
   font-family: "baloo 2";
   font-style: normal;
   font-weight: 500;
-  src: url(./assets/fonts/Baloo2-medium.eot);
-  src: url(./assets/fonts/baloo2-medium.eot?#iefix) format("embedded-opentype"),
-    url(./assets/fonts/baloo2-medium.otf) format("otf"),
-    url(./assets/fonts/baloo2-medium.svg) format("svg"),
-    url(./assets/fonts/baloo2-medium.ttf) format("truetype");
+  src: url("./assets/fonts/Baloo2-medium.eot");
+  src: url("./assets/fonts/baloo2-medium.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/baloo2-medium.otf") format("otf"),
+    url("./assets/fonts/baloo2-medium.svg") format("svg"),
+    url("./assets/fonts/baloo2-medium.ttf") format("truetype"),
+    url("./assets/fonts/baloo2-medium.woff") format("woff"),
+    url("./assets/fonts/baloo2-medium.woff2") format("woff2");
   unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 }
 
@@ -32,12 +36,14 @@
   font-family: "baloo 2";
   font-style: normal;
   font-weight: 600;
-  src: url(./assets/fonts/Baloo2-semibold.eot);
-  src: url(./assets/fonts/baloo2-semibold.eot?#iefix)
+  src: url("./assets/fonts/Baloo2-semibold.eot);"
+  src: url("./assets/fonts/baloo2-semibold.eot?#iefix")
       format("embedded-opentype"),
-    url(./assets/fonts/baloo2-semibold.otf) format("otf"),
-    url(./assets/fonts/baloo2-semibold.svg) format("svg"),
-    url(./assets/fonts/baloo2-semibold.ttf) format("truetype");
+    url("./assets/fonts/baloo2-semibold.otf)" format("otf"),
+    url("./assets/fonts/baloo2-semibold.svg)" format("svg"),
+    url("./assets/fonts/baloo2-semibold.ttf)" format("truetype"),
+    url("./assets/fonts/baloo2-semibold.woff)" format("woff"),
+    url("./assets/fonts/baloo2-semibold.woff2)" format("woff2");
   unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 }
 
@@ -45,11 +51,13 @@
   font-family: "baloo 2";
   font-style: normal;
   font-weight: 700;
-  src: url(./assets/fonts/Baloo2-bold.eot);
-  src: url(./assets/fonts/baloo2-bold.eot?#iefix) format("embedded-opentype"),
-    url(./assets/fonts/baloo2-bold.otf) format("otf"),
-    url(./assets/fonts/baloo2-bold.svg) format("svg"),
-    url(./assets/fonts/baloo2-bold.ttf) format("truetype");
+  src: url("./assets/fonts/Baloo2-bold.eot);"
+  src: url("./assets/fonts/baloo2-bold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/baloo2-bold.otf)" format("otf"),
+    url("./assets/fonts/baloo2-bold.svg)" format("svg"),
+    url("./assets/fonts/baloo2-bold.ttf)" format("truetype"),
+    url("./assets/fonts/baloo2-bold.woff)" format("woff"),
+    url("./assets/fonts/baloo2-bold.woff2)" format("woff2");
   unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 }
 
@@ -57,12 +65,14 @@
   font-family: "baloo 2";
   font-style: normal;
   font-weight: 800;
-  src: url(./assets/fonts/Baloo2-extrabold.eot);
-  src: url(./assets/fonts/baloo2-extrabold.eot?#iefix)
+  src: url("./assets/fonts/Baloo2-extrabold.eot);"
+  src: url("./assets/fonts/baloo2-extrabold.eot?#iefix")
       format("embedded-opentype"),
-    url(./assets/fonts/baloo2-extrabold.otf) format("otf"),
-    url(./assets/fonts/baloo2-extrabold.svg) format("svg"),
-    url(./assets/fonts/baloo2-extrabold.ttf) format("truetype");
+    url("./assets/fonts/baloo2-extrabold.otf)" format("otf"),
+    url("./assets/fonts/baloo2-extrabold.svg)" format("svg"),
+    url("./assets/fonts/baloo2-extrabold.ttf)" format("truetype"),
+    url("./assets/fonts/baloo2-extrabold.woff)" format("woff"),
+    url("./assets/fonts/baloo2-extrabold.woff2)" format("woff2");
   unicode-range: U+0041-005A, U+0061-007A, U+0030-0039;
 }
 
@@ -70,31 +80,10 @@
   font-family: "Noto Sans KR";
   font-style: normal;
   font-weight: 400;
-  src: url(./assets/fonts/NotoSansKR-demilight-hestia.eot);
-  src: url(./assets/fonts/NotoSansKR-demilight-hestia.eot?#iefix)
+  src: url("./assets/fonts/NotoSansKR-Black-Hestia.eot");
+  src: url("./assets/fonts/NotoSansKR-Black-Hestia.eot?#iefix")
       format("embedded-opentype"),
-    url(./assets/fonts/NotoSansKR-demilight-hestia.otf) format("otf");
-  unicode-range: U+AC00-D7A3;
-}
-
-@font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 700;
-  src: url(./assets/fonts/NotoSansKR-bold-hestia.eot);
-  src: url(./assets/fonts/NotoSansKR-bold-hestia.eot?#iefix)
-      format("embedded-opentype"),
-    url(./assets/fonts/NotoSansKR-bold-hestia.otf) format("otf");
-  unicode-range: U+AC00-D7A3;
-}
-
-@font-face {
-  font-family: "Noto Sans KR";
-  font-style: normal;
-  font-weight: 500;
-  src: url(./assets/fonts/NotoSansKR-black-hestia.eot);
-  src: url(./assets/fonts/NotoSansKR-black-hestia.eot?#iefix)
-      format("embedded-opentype"),
-    url(./assets/fonts/NotoSansKR-black-hestia.otf) format("otf");
+    url("./assets/fonts/NotoSansKR-Black-Hestia.otf") format("otf"),
+    url("./assets/fonts/NotoSansKR-Black-Hestia.woff") format("woff");
   unicode-range: U+AC00-D7A3;
 }
