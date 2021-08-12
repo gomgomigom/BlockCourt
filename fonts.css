@@ -1,0 +1,103 @@
+/* 특수문자 범위 U+0020-002F, U+003A-0040, U+005B-0060, U+007B-007E */
+/* 영문 범위: U+0041-005A (대문자), U+0061-007A(소문자) */
+/* 숫자 범위: U+0030-0039 */
+/* 전체: U+0020-007E */
+/* 한글: U+AC00-D7A3 */
+
+@font-face {
+  font-family: "baloo 2";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Baloo2-Regular.eot");
+  src: url("./assets/fonts/Baloo2-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Baloo2-Regular.otf") format("otf"),
+    url("./assets/fonts/Baloo2-Regular.svg") format("svg"),
+    url("./assets/fonts/Baloo2-Regular.ttf") format("truetype"),
+    url("./assets/fonts/Baloo2-Regular.woff") format("woff"),
+    url("./assets/fonts/Baloo2-Regular.woff2") format("woff2");
+  /* unicode-range: U+0041-005A, U+0061-007A, U+0030-0039; */
+}
+
+@font-face {
+  font-family: "baloo 2";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/Baloo2-Medium.eot");
+  src: url("./assets/fonts/Baloo2-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Baloo2-Medium.otf") format("otf"),
+    url("./assets/fonts/Baloo2-Medium.svg") format("svg"),
+    url("./assets/fonts/Baloo2-Medium.ttf") format("truetype"),
+    url("./assets/fonts/Baloo2-Medium.woff") format("woff"),
+    url("./assets/fonts/Baloo2-Medium.woff2") format("woff2");
+  /* unicode-range: U+0041-005A, U+0061-007A, U+0030-0039; */
+}
+
+@font-face {
+  font-family: "baloo 2";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./assets/fonts/Baloo2-SemiBold.eot");
+  src: url("./assets/fonts/Baloo2-SemiBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Baloo2-SemiBold.otf") format("otf"),
+    url("./assets/fonts/Baloo2-SemiBold.svg") format("svg"),
+    url("./assets/fonts/Baloo2-SemiBold.ttf") format("truetype"),
+    url("./assets/fonts/Baloo2-SemiBold.woff") format("woff"),
+    url("./assets/fonts/Baloo2-SemiBold.woff2") format("woff2");
+  /* unicode-range: U+0041-005A, U+0061-007A, U+0030-0039; */
+}
+
+@font-face {
+  font-family: "baloo 2";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/Baloo2-Bold.eot");
+  src: url("./assets/fonts/Baloo2-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./assets/fonts/Baloo2-Bold.otf") format("otf"),
+    url("./assets/fonts/Baloo2-Bold.svg") format("svg"),
+    url("./assets/fonts/Baloo2-Bold.ttf") format("truetype"),
+    url("./assets/fonts/Baloo2-Bold.woff") format("woff"),
+    url("./assets/fonts/Baloo2-Bold.woff2") format("woff2");
+  /* unicode-range: U+0041-005A, U+0061-007A, U+0030-0039; */
+}
+
+@font-face {
+  font-family: "baloo 2";
+  font-style: normal;
+  font-weight: 800;
+  src: url("./assets/fonts/Baloo2-ExtraBold.eot");
+  src: url("./assets/fonts/Baloo2-ExtraBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/Baloo2-ExtraBold.otf") format("otf"),
+    url("./assets/fonts/Baloo2-ExtraBold.svg") format("svg"),
+    url("./assets/fonts/Baloo2-ExtraBold.ttf") format("truetype"),
+    url("./assets/fonts/Baloo2-ExtraBold.woff") format("woff"),
+    url("./assets/fonts/Baloo2-ExtraBold.woff2") format("woff2");
+  /* unicode-range: U+0041-005A, U+0061-007A, U+0030-0039; */
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/NotoSansKR-demilight-hestia.eot");
+  src: url("./assets/fonts/NotoSansKR-demilight-hestia.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/NotoSansKR-demilight-hestia.otf") format("otf"),
+    url("./assets/fonts/NotoSansKR-demilight-hestia.woff") format("woff");
+  unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/NotoSansKR-Black-Hestia.eot");
+  src: url("./assets/fonts/NotoSansKR-Black-Hestia.eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/NotoSansKR-Black-Hestia.otf") format("otf"),
+    url("./assets/fonts/NotoSansKR-Black-Hestia.woff") format("woff");
+  unicode-range: U+AC00-D7A3;
+}

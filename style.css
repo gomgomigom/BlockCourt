@@ -1,0 +1,263 @@
+/* @import url("./fonts.css"); */
+
+:root {
+  --logo-color-new: #072c50;
+  --logo-color-gold: #b88746;
+  --white: white;
+  --logo-color-old: #2b3252;
+  --logo-color-old-yellow: #fad744;
+  --gray: gray;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  color: var(--logo-color-new);
+  font-family: "baloo 2", "Noto Sans KR", sans-serif, cursive;
+  word-break: keep-all;
+}
+
+a {
+  text-decoration: none;
+  color: var(--logo-color-new);
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--logo-color-new);
+  padding: 5px 12px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  margin: 0 auto 150px;
+  background-color: var(--logo-color-new);
+}
+
+.head-logo a {
+  display: flex;
+  justify-content: center;
+}
+/* 
+.head-logo a:hover {
+  animation-name: move_logo;
+  animation-duration: 3000ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move_logo {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.head-logo h1 a img {
+  width: auto;
+  height: 60px;
+}
+
+.head-menu {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.head-menu li a {
+  font-size: 22px;
+  color: var(--logo-color-gold);
+  padding: 10px 12px;
+}
+
+.head-menu li a:hover {
+  color: var(--logo-color-gold);
+  font-weight: 700;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 200px;
+  width: 90%;
+}
+
+.main-img {
+  display: flex;
+  justify-content: center;
+}
+
+.main-img img {
+  width: 40%;
+  height: auto;
+}
+
+.introduce {
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduce h2 {
+  font-size: 50px;
+  margin-bottom: -20px;
+}
+
+.introduce h3 {
+  margin-bottom: 50px;
+  color: var(--logo-color-gold);
+}
+
+.introduce p {
+  display: inline-block;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.introduce button {
+  margin: 0;
+  padding: 7px 12px;
+  border: none;
+  font-size: 25px;
+  border-radius: 5px;
+  color: var(--logo-color-gold);
+  background-color: var(--logo-color-new);
+  cursor: pointer;
+  transition: box-shadow 750ms ease-in;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.introduce button:hover {
+  box-shadow: 0 0 5px 3px var(--logo-color-gold);
+}
+
+.article-container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 5%;
+  margin: auto;
+  color: var(--logo-color-gold);
+  background-color: var(--logo-color-new);
+}
+
+.anonymity p {
+  color: var(--white);
+}
+
+.anonymity {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  width: 30%;
+  height: 30vh;
+}
+
+.secret p {
+  color: var(--white);
+}
+
+.secret {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  width: 30%;
+  height: 30vh;
+}
+
+.legal-counsel p {
+  color: var(--white);
+}
+
+.legal-counsel {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  width: 30%;
+  height: 30vh;
+}
+
+.footer {
+  padding: 10px 20px;
+  color: var(--gray);
+  background-color: var(--logo-color-new);
+  padding-bottom: 10vh;
+}
+
+.footer p::before {
+  content: "•";
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .head-container {
+    flex-direction: column;
+    padding: 5px 10px;
+  }
+  .head-logo h1 {
+    display: flex;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .introduce h2 img {
+    height: 80px;
+  }
+  .introduce h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .introduce p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .introduce {
+    margin-left: 0;
+    width: 70%;
+  }
+  .main-img {
+    margin-top: 100px;
+    width: 40%;
+  }
+  .main-img img {
+    width: 100%;
+  }
+  .introduce button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+  }
+  .article-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10% 5%;
+    margin: auto;
+  }
+  .anonymity,
+  .secret,
+  .legal-counsel {
+    width: 80%;
+    height: 40vh;
+  }
+}
