@@ -16,6 +16,7 @@
 body {
   color: var(--logo-color-new);
   font-family: "baloo 2", "Noto Sans KR", sans-serif, cursive;
+  word-break: keep-all;
 }
 
 a {
@@ -43,21 +44,22 @@ a {
   display: flex;
   justify-content: center;
 }
-
+/* 
 .head-logo a:hover {
   animation-name: move_logo;
   animation-duration: 3000ms;
+  animation-iteration-count: infinite;
 }
 
 @keyframes move_logo {
   from {
-    background-color: none;
+    transform: rotate(0deg);
   }
 
   to {
-    background-color: var(--logo-color-new);
+    transform: rotate(360deg);
   }
-}
+} */
 
 .head-logo h1 a img {
   width: auto;
